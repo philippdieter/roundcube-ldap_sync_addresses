@@ -1,0 +1,29 @@
+{
+    "name": "roundcube/ldap_sync_addresses",
+    "type": "roundcube-plugin",
+    "description": "Syncs users identities with addresses from ldap",
+    "license": "GPL-3.0-or-later",
+    "version": "0.2",
+    "authors": [
+        {
+            "name": "Aleksander Machniak",
+            "email": "alec@alec.pl",
+            "role": "Lead"
+        },
+        {
+            "name": "Philipp Dieter",
+            "email": "philipp.dieter@datentonne.net",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://plugins.roundcube.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "roundcube/plugin-installer": ">=0.1.3"
+    }
+}
